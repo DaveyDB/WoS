@@ -240,6 +240,8 @@
     <Compile Include="Assets\Scripts\Interactable\Node_Ore_Copper.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerLook.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\Settings\SolarSettings.cs" />
+    <Compile Include="Assets\Scripts\SolarSystem\SolarGeneration.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
