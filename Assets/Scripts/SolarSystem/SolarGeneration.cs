@@ -75,7 +75,7 @@ public class SolarGeneration : MonoBehaviour {
     private void Update() {
         float i = 1.0f;
         foreach (Transform planet in planets) {
-            planet.RotateAround(planet.parent.position, new Vector3(0, 1f, 0), (5 * (1 / i)) * Time.deltaTime);
+            planet.RotateAround(planet.parent.position, new Vector3(0, 1f, 0), -((5 * (1 / i)) * Time.deltaTime));
             i += 0.2f ;
         }
     }
